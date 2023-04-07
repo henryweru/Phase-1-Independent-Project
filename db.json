@@ -1,0 +1,105 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "PSG Shirts",
+        "image": "https://i.pinimg.com/564x/24/d6/f9/24d6f9b96cbe6db88b7dcad524ab0bc3.jpg",
+        "description":"size : small ,medium ,large and exta large",
+        "items available": 100,
+        "price": 850,
+        "items sold":56
+
+      },
+      {
+        "id": 2,
+        "name": "Coffee cups",
+        "image": "https://images.unsplash.com/photo-1525480122447-64809d765ec4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "description":"colour:white ,blue ,brown",
+        "items available": 300,
+        "price":120,
+        "items sold":124
+
+      },
+      {
+        "id": 3,
+        "name": "dress",
+        "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "description":"size : small ,medium ,large and exta large",
+        "items available": 80,
+        "price":500,
+        "items sold":24
+
+      },
+      {
+        "id": 4,
+        "name": "Telescope",
+        "image": "https://images.unsplash.com/photo-1648780693911-90b1b7237e2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "description":"lens power 50x ,100x",
+        "items available": 30,
+        "price":300,
+        "items sold":6
+
+      },
+      {
+        "id": 5,
+        "name": "Shinola Detroit",
+        "image": "https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "description":"size : small ,medium ,large and exta large",
+        "items available": 50,
+        "price":8560,
+        "items sold":21
+
+      },
+      {
+        "id": 6,
+        "name": "milk and honey",
+        "image": "https://images.unsplash.com/photo-1544947892-2aa32e5a4414?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "description":"author:Rupi Kaur",
+        "items available": 1000,
+        "price":850,
+        "items sold":996
+
+      },
+      {
+        "id": 7,
+        "name": "nike air-max",
+        "image": "https://images.unsplash.com/photo-1679872996042-60a2a9b14c85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "description":"size : 38-45",
+        "items available": 30,
+        "price":8560,
+        "items sold":24
+
+      },
+      {
+        "id": 8,
+        "name": "Redbull",
+        "image": "https://images.unsplash.com/photo-1570526427001-9d80d114054d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "description":"250ml",
+        "items available": 30,
+        "price":8560,
+        "items sold":24
+
+      },
+      {
+        "id": 9,
+        "name": "HD screens",
+        "image": "https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "description":"High-Resolution",
+        "items available": 30,
+        "price":8560,
+        "items sold":24
+
+      },
+      {
+        "id": 10,
+        "name": "Nothing phone(1)",
+        "image": "https://images.unsplash.com/photo-1661267990546-74312bcb1d15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=439&q=80",
+        "description":" 6.55″ display, Snapdragon 778G+ 5G chipset, 4500 mAh battery, 256 GB storage, 12 GB RAM,",
+        "items available": 30,
+        "price":8560,
+        "items sold":24
+
+      }
+    ]
+   }
+   

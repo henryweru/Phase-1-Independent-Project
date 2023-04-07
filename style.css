@@ -1,0 +1,277 @@
+
+
+  .product{
+    display:inline-block;
+    place-items: center;
+    min-height: 2vh;
+    border: navy;
+  }
+  
+  
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+  
+body{
+    height: auto;
+    background-image: black;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.menu-btn{
+    color: aquamarine;
+    font-size: 23px;
+    font-style: italic;
+    cursor: pointer;
+    display: none;
+}
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 999;
+    background-color:  seashell;
+    box-shadow: 0 0 14px rgba( 0, 0, 0, 0.3);
+}
+
+
+.navbar .logo h1{
+    color: #424144;
+    border-bottom: 4px solid#fd6561;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: #424144;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .menu li .active{
+    border-bottom: 4px solid navy;
+}
+
+.navbar .menu li a i{
+    color: navy;
+}
+
+.navbar .menu li a:hover{
+    border-bottom: 4px solid navy  
+}
+
+
+.product {
+    border: 10px; /* creates a light gray border around the product */
+    border-radius: 7px; /* rounds the corners of the product box */
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1); /* adds a subtle drop shadow to the product */
+    display: inline-block;
+    padding: 20px; /* adds 20pixels of padding around the contents of the product */
+    margin-bottom: 20px; /* adds 20 pixels of margin between the products */
+    background-color: transparent; /* sets a white background color for the product */
+    flex-direction: column;
+
+  }
+  
+  .product img {
+    max-width: 50%; /* ensures that product images don't exceed their container width */
+    display: inline-block; /* ensures that images display as block elements */
+    margin-bottom: 5px;
+    width: 50%;
+    height: 50%;
+    padding: none;
+    border-left-width: 40%;
+    border-right-width: 40%;
+    /* adds 10 pixels of margin below the image */
+  }
+  
+  .product h2 {
+    font-size: 18px; /* sets the font size of the product title */
+    margin-bottom: 0px; 
+    display: block;
+    
+  }
+  
+  .product p {
+    font-size: 12px; /* sets the font size of the product description */
+    margin-bottom: 10px; /* adds 10 pixels of margin below the description */
+  }
+  
+  .product button {
+    background-color: lightskyblue; /* sets the background color of the product button */
+    color: #100d0d; /* sets the text color of the product button */
+    border: none; /* removes the border around the product button */
+    padding: 2px; /* adds 10 pixels of padding around the product button */
+    font-size: 16px; /* sets the font size of the product button */
+    cursor: pointer; /* changes the mouse cursor to a pointer when hovering over the product button */
+  }
+  
+
+
+
+
+
+
+
+
+  footer {
+    background-color: seashell; /* sets a light gray background color for the footer */
+    padding: 20px; /* adds 20 pixels of padding around the contents of the footer */
+    text-align: left; /* centers the text within the footer */
+    font-size: 14px; /* sets the font size of the text within the footer */
+    display: flex;
+  }
+  
+  footer p {
+    margin-bottom: 10px; /* adds 10 pixels of margin below each paragraph within the footer */
+  }
+  
+  footer a {
+    color: #0077cc; /* sets the link color within the footer */
+    text-decoration: none; /* removes the underline from links within the footer */
+  }
+  
+  footer a:hover {
+    text-decoration: underline; /* underlines links within the footer when hovering over them */
+  }
+  
+
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3em;
+  }
+  
+  .card1 {
+    width: 45px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 45px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 45px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .github {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+  }
+  
+  .card4 {
+    width: 45px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .discord {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card2:hover .twitter {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .card3:hover .github {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .card4:hover .discord {
+    fill: white;
+  }
