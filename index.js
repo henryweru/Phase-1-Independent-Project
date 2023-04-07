@@ -27,10 +27,10 @@ function displayProducts(products) {
     const productPrice = document.createElement('p');
     productPrice.textContent = `$${product.price}`;
 
-    // Create a "Buy" button for each product
+    
     const buyBtn = document.createElement('button');
     buyBtn.textContent = 'Buy';
-    buyBtn.id = `buy-btn-${product.id}`;
+    buyBtn.id = `buy-btn-${product.id.itemsAvailable}`;
     buyBtn.addEventListener('click', () => {
       if (product.itemsAvailable > 0) {
         product.itemsAvailable--;
@@ -61,15 +61,9 @@ function fetchProducts() {
     .then(data => displayProducts(data));
 }
 
-function updateItems(id, itemsAvailable, itemsSold) {
-  fetch(`http://localhost:3000/products/id`, {
-    method: 'PUT',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ itemsAvailable, itemsSold })
-  });
-}
+
+
+
 
 function updateUI(id, itemsAvailable, itemsSold) {
   const itemsAvailableSpan = document.getElementById(`items-available-${id}`);
@@ -78,4 +72,6 @@ function updateUI(id, itemsAvailable, itemsSold) {
   itemsSoldSpan.textContent = `Items sold: ${itemsSold}`;
 }
 
-fetchProducts();
+document.addEventListener('DOMContentLoaded', () => {
+  fetchProducts();
+});
