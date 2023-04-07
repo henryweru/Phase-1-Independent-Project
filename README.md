@@ -24,3 +24,4 @@ The Ecommerce project was built using the following technologies:
 2. db.json
 3. style.css
 4. HTML
+5. images from https://www.pinterest.com/
