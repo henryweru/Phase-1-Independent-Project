@@ -91,7 +91,7 @@ body{
     max-width: 50%; /* ensures that product images don't exceed their container width */
     display: inline-block; /* ensures that images display as block elements */
     margin-bottom: 5px;
-    width: 50%;
+    width: 49%;
     height: 50%;
     padding: none;
     border-left-width: 40%;
