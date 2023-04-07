@@ -62,7 +62,7 @@ function fetchProducts() {
 }
 
 function updateItems(id, itemsAvailable, itemsSold) {
-  fetch(`http://localhost:3000/products/id{}`, {
+  fetch(`http://localhost:3000/products/id`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
